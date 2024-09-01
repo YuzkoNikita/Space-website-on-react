@@ -1,0 +1,80 @@
+.explore_container {
+    row-gap: 3rem;
+  }
+  
+  .explore_data {
+    position: relative;
+  }
+  
+  .explore_planet {
+    width: 50px;
+    position: absolute;
+    top: 3rem;
+    right: 0;
+  }
+  
+  .explore_description {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .explore_info {
+    display: flex;
+    justify-content: center;
+    column-gap: 3rem;
+  }
+
+  /*=============== BREAKPOINTS ===============*/
+  /* ============== For small devices ============= */
+  @media screen and (max-width: 340px) {
+    .explore_info {
+      flex-direction: column;
+      row-gap: 1rem;
+      text-align: center;
+    }
+  }
+
+  /* ============ For medium devices ============= */
+  @media screen and (min-width: 540px) {
+    .explore_container {
+      grid-template-columns: 350px;
+      justify-content: center;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .explore_container {
+      grid-template-columns: repeat(2, 350px);
+      align-items: center;
+    }
+  
+    .explore_data,
+    .explore_description {
+      text-align: initial;
+    }
+
+    .explore_info {
+      justify-content: initial;
+    }
+  }
+
+/* ============== For large devices =================== */
+  @media screen and (min-width: 1150px) {
+    .explore_container {
+      grid-template-columns: 550px 480px;
+      column-gap: 2rem;
+    }
+  
+    .explore_data .section__title {
+      margin-bottom: 1.5rem;
+    }
+  
+    .explore_description {
+      margin-bottom: 3rem;
+    }
+  
+    .explore_planet {
+      width: 100px;
+      right: -4rem;
+    }
+  }

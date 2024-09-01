@@ -1,0 +1,21 @@
+.header {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: transparent;
+    z-index: var(--z-fixed);
+  }
+
+  .blur-header::after {
+    content: '';
+    position: absolute;
+    width: 1000%;
+    height: 100%;
+    background-color: hsla(238, 100%, 6%, .5);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    top: 0;
+    left: 0;
+    z-index: -1;
+  }

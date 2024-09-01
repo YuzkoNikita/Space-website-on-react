@@ -1,0 +1,13 @@
+.social-link {
+    display: inline-flex;
+    background: var(--third-gradient);
+    color: var(--white-color);
+    font-size: 1.5rem;
+    padding: .25rem;
+    transition: box-shadow .4s;
+  }
+  
+  .social-link:hover {
+    box-shadow: 0 8px 32px hsla(25, 96%, 55%, .6);
+  }
+  

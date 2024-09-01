@@ -1,0 +1,7 @@
+/* ============== BREAKPOINTS ============== */
+/* ============== For large devices start ============ */
+@media screen and (min-width: 1150px) {
+    .section__title {
+        margin-bottom: 3rem;
+    }
+}

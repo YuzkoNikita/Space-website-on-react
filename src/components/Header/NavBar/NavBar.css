@@ -1,0 +1,118 @@
+.nav {
+    position: relative;
+    height: var(--header-height);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .nav_logo {
+    display: inline-flex;
+    align-items: center;
+    column-gap: .25rem;
+    color: var(--white-color);
+    font-weight: var(--font-semi-bold);
+    cursor: pointer;
+  }
+  
+  .nav_logo img {
+    width: 1.5rem;
+  }
+  
+  .nav_menu {
+    position: fixed;
+    top: 0;
+    right: -100%;
+    background-color: hsla(238, 100%, 6%, .5);
+    backdrop-filter: blur(16px);
+    -webkit-backdrop-filter: blur(16px);
+    width: 80%;
+    height: 100%;
+    padding: 8rem 3.5rem 3.5rem;
+    transition: right .4s;
+  }
+  
+  .nav_list {
+    display: flex;
+    flex-direction: column;
+    row-gap: 3rem;
+  }
+  
+  .nav_link {
+    color: var(--white-color);
+    font-size: var(--h2-font-size);
+    font-family: var(--second-font);
+    transition: color .4s;
+  }
+  
+  .nav_link:hover {
+    color: var(--first-color);
+  }
+  
+  .nav_img {
+    position: absolute;
+  }
+  
+  .nav_img {
+    width: 300px;
+    right: -3rem;
+    bottom: 5rem;
+    z-index: -1;
+  }
+
+  .show-menu {
+    right: 0;
+  }
+
+  .nav_toggle {
+    display: inline-flex;
+    font-size: 1.5rem;
+    color: var(--white-color);
+    cursor: pointer;
+  }
+
+  .nav_close svg{
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    display: inline-flex;
+    color: var(--white-color);
+    cursor: pointer;
+    top: 1rem;
+    right: 1.5rem;
+  }
+
+/* ============== BREAKPOINTS ============== */
+/* ============== For large devices ================ */
+@media screen and (min-width: 1150px) {
+  .nav {
+    height: calc(var(--header-height) + 2rem);
+  }
+
+  .nav_logo img {
+    width: 3rem;
+  }
+
+  .nav_toggle,
+  .nav_close {
+    font-size: 2rem;
+  }
+
+  .nav_menu {
+    width: 40%;
+    padding: 10rem 4.5rem 0;
+  }
+
+  .nav_list {
+    row-gap: 3.5rem;
+  }
+
+  .nav_close {
+    top: 1.7rem;
+  }
+
+  .nav_img {
+    width: 400px;
+    right: -4rem;
+  }
+}

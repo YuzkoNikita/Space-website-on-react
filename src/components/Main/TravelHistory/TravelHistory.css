@@ -1,0 +1,55 @@
+.history {
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .history_container {
+    position: relative;
+    row-gap: 2.5rem;
+    grid-template-columns: 265px;
+    justify-content: center;
+  }
+
+  .history_planet-1,
+.history_planet-2 {
+  position: absolute;
+}
+
+.history_planet-1 {
+  width: 250px;
+  top: 10rem;
+  left: -8rem;
+}
+
+.history_planet-2 {
+  width: 150px;
+  right: -5rem;
+  bottom: 6rem;
+}
+
+/* ============== BREAKPOINTS ============== */
+/* ============== For medium devices ================ */
+@media screen and (min-width: 768px) {
+  .history_container {
+    grid-template-columns: repeat(2, 265px);
+  }
+}
+
+  /* ============== For large devices =================== */
+  @media screen and (min-width: 1150px) {
+    .history_container {
+      grid-template-columns: repeat(3, 265px);
+      column-gap: 5rem;
+    }
+  
+    .history_planet-1 {
+      width: 500px;
+      left: -15rem;
+    }
+  
+    .history_planet-2 {
+      width: 300px;
+      right: -8rem;
+      bottom: 10rem;
+    }
+  }
