@@ -1,4 +1,3 @@
-import './NavBar.css'
 import logo from '../../../assets/logo.svg'
 import nav_comet from '../../../assets/nav-comet.svg'
 import { useState } from 'react'

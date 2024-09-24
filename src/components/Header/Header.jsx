@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react'
-import './Header.css'
 import NavBar from './NavBar/NavBar'
 
 export default function Header() {
