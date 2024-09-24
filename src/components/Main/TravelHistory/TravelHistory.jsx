@@ -1,5 +1,4 @@
 import TitleSection from '../../../minorComponents/TitleSection/TitleSection'
-import './TravelHistory.css'
 import TravelHistoryCard from './TravelHistoryCard/TravelHistoryCard'
 import history_img_1 from '../../../assets/history-img-1.svg'
 import history_img_2 from '../../../assets/history-img-2.svg'
