@@ -1,5 +1,4 @@
 import { useEffect, useState } from 'react'
-import './ScrollUpButton.css'
 
 export default function ScrollUpButton() {
   const [scrollUpButton, setScrollUpButton] = useState(false);
