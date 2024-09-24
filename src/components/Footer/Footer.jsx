@@ -1,6 +1,5 @@
 import ComponentsLinks from '../../minorComponents/ComponentsLinks/ComponentsLinks'
 import SocialLinks from '../../minorComponents/SocialLinks/SocialLinks'
-import './Footer.css'
 import footer_planet_1 from '../../assets/footer-planet-1.svg'
 import footer_planet_2 from '../../assets/footer-planet-2.svg'
 
