@@ -1,4 +1,3 @@
-import './Home.css'
 import home_bg from '../../../assets/home-bg.svg'
 import home_ovni from '../../../assets/home-ovni.svg'
 import home_img from '../../../assets/home-img.png'

@@ -7,7 +7,7 @@ import './sass/index.scss';
 function App() {
   return (
     <>
-      <Header />
+      {/* <Header /> */}
       <Main />
       {/* <Footer />
       <ScrollUpButton /> */}
