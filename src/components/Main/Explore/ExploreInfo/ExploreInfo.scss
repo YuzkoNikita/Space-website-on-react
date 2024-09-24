@@ -1,0 +1,16 @@
+.explore_info-data {
+  .explore_info-title {
+    font-size: var(--normal-font-size);
+  }
+  .explore_info-number {
+    font-size: var(--h1-font-size);
+    font-family: var(--second-font);
+    background: var(--second-gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    span {
+      font-size: var(--small-font-size);
+    }
+  }
+} 
