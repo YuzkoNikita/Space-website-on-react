@@ -1,7 +1,16 @@
+// Default styles
 @import "base/base";
 
+// Header components
 @import "../components/Header/Header.scss";
 @import "../components/Header/NavBar/NavBar.scss";
+
+// Main components
 @import "../components/Main/Home/Home.scss";
 @import "../components/Main/Travel/Travel.scss";
+@import '../components/Main/Travel/TravelCard/TravelCard.scss';
 @import "../components/Main/Explore/Explore.scss";
+
+// Footer components
+
+// Minor components

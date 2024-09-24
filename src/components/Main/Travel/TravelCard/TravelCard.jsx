@@ -1,5 +1,3 @@
-import './TravelCard.css'
-
 // eslint-disable-next-line react/prop-types
 export default function TravelCard({img, title, info, description}) {
   return (
