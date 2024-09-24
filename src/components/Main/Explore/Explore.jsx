@@ -1,5 +1,4 @@
 import TitleSection from '../../../minorComponents/TitleSection/TitleSection'
-import './Explore.css'
 import explore_planet from '../../../assets/explore-planet.svg'
 import explore_img from '../../../assets/explore-img.png'
 import ExploreInfo from './ExploreInfo/ExploreInfo'

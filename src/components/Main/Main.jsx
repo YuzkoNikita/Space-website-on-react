@@ -8,11 +8,11 @@ import TravelHistory from './TravelHistory/TravelHistory'
 export default function Main() {
   return (
     <>
-      {/* <Home /> */}
+      <Home />
       <Travel /> 
-      {/* <Explore />
+      <Explore />
       <TravelHistory />
-      <Contact /> */}
+      <Contact />
     </>
   )
 }
