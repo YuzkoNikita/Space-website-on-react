@@ -10,9 +10,9 @@ export default function Main() {
     <>
       {/* <Home />
       <Travel /> 
-      <Explore /> */}
-      <TravelHistory />
-      {/* <Contact /> */}
+      <Explore />
+      <TravelHistory /> */}
+      <Contact />
     </>
   )
 }

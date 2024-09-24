@@ -1,0 +1,39 @@
+.contact {
+  .contact_container {
+    padding-bottom: 2rem;
+    .contact_form {
+      display: grid;
+      row-gap: 1rem;
+      .contact_input {
+        width: 100%;
+        background-color: var(--body-color);
+        border: 2px solid var(--border-color);
+        padding: 1rem;
+        color: var(--white-color);
+      }
+      button {
+        cursor: pointer;
+      }
+    }
+  }
+  /* ============== BREAKPOINTS ============== */
+  /* ============== For medium devices ================ */
+  @media screen and (min-width: 768px) {
+    .contact_container {
+      .contact_form {
+        width: 600px;
+        justify-self: center;
+        display: grid;
+        grid-template-columns: 1fr max-content;
+        column-gap: 1rem;
+        border: 2px solid var(--border-color);
+        padding: 1rem 1rem 1rem 1.5rem;
+        .contact_input {
+          border: none;
+          padding: 0;
+        }
+      }
+    }
+  }
+}
+
