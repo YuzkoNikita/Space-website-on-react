@@ -1,5 +1,3 @@
-import './SocialLinks.css'
-
 export default function SocialLinks() {
   return (
     <>
