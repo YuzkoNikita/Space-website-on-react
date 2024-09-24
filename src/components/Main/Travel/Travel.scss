@@ -1,0 +1,41 @@
+.travel {
+    position: relative;
+    .travel_lines {
+      width: 550px;
+      position: absolute;
+      top: 4rem;
+      left: 0;
+    }
+    .travel_container {
+      position: relative;
+      background-color: hsla(238, 50%, 20%, .4);
+      backdrop-filter: blur(16px);
+      -webkit-backdrop-filter: blur(16px);
+      padding: 2rem 2rem 5rem;
+    }
+    /* ============== BREAKPOINTS ===============*/
+    /* ============== For small devices =================== */
+    @media screen and (max-width: 340px) {
+      .travel_container {
+        padding-inline: 1rem;
+      }
+    }
+    /* ============== For large devices =================== */
+    @media screen and (min-width: 1150px) {
+      .travel_lines {
+        width: 800px;
+      }
+    
+      .travel_container {
+        padding: 3.5rem 3.5rem 7.5rem;
+        text-align: initial;
+      }
+    }
+  }
+  
+
+  
+  
+
+
+
