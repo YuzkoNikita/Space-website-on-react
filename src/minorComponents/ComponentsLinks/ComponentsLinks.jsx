@@ -1,5 +1,3 @@
-import './ComponentsLinks.css'
-
 export default function ComponentsLinks() {
   return (
     <ul className="components_links">
